@@ -1,0 +1,2 @@
+# Scholarsphere
+Student Management System
