@@ -1,0 +1,6 @@
+1|Andres Bonifacio|20|09098767759|Bonifacio.andres@wvsu.edu.ph|11/30/2005|O-|BSN|1-A|1|0|0|0|Anatomy|0|Microbiology|0
+2025M0741|FRENCH MAR BALLESCAS|19|09638934228|BALLESCAS.FRENCHMAR@WVSU.EDU.PH|07/14/2006|AB|BSCS|1-A|1|0|0|0
+1861|Jose Rizal|20|09123456789|jose.rizal@wvsu.edu.ph|06/19/1861|A|BSMED|1-A|1|0|0|0|Medicine|0|Philosophy|0
+12345678|Nico|19|09704582883|nico@wvsu.edu.ph|34567|AB|BSCS|!-A|1|90|0|0
+1945|Rodrigo Roa Duterte|19|09096533571|Duterte.rodrigoroa@wvsu.edu.ph|03/28/2006|o-|BAPS|1-A|1|0|0|0|Comparative Politics|0|Political Theory|0
+2025M0750|Zneb John D. Delariman|19|09704582883|znebjohn.delariman@wvsu.edu.ph|10/25/2006|AB+|BSCS|1-A|1|0|0|0|Programming|0
