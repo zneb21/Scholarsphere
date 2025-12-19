@@ -15,20 +15,16 @@ The system separates permissions between two types of users:
 
 ### 2. Core Management (CRUD)
 
-* 
-**Create**: Register new students with detailed information (ID, Name, Age, Course, Section, Contact, E-mail, Birthday, and Blood Type).
+* **Create**: Register new students with detailed information (ID, Name, Age, Course, Section, Contact, E-mail, Birthday, and Blood Type).
 
 
-* 
-**Read**: Search for students by name or course, or view a complete list automatically sorted alphabetically.
+* **Read**: Search for students by name or course, or view a complete list automatically sorted alphabetically.
 
 
-* 
-**Update**: Modify existing personal details or manage a student's subjects and grades.
+* **Update**: Modify existing personal details or manage a student's subjects and grades.
 
 
-* 
-**Delete**: Permanently remove records with a mandatory confirmation step to prevent accidental data loss.
+* **Delete**: Permanently remove records with a mandatory confirmation step to prevent accidental data loss.
 
 
 
@@ -40,18 +36,13 @@ The system separates permissions between two types of users:
 
 ### 4. System Robustness
 
-* 
-**Data Persistence**: Automatically saves all changes to `students_data.txt` and reloads them upon startup, ensuring no data is lost between sessions.
+* **Data Persistence**: Automatically saves all changes to `students_data.txt` and reloads them upon startup, ensuring no data is lost between sessions.
 
 
-* 
-**Input Validation**: Restricts grades to values between 0-100 and prevents system crashes from incorrect data types.
+* **Input Validation**: Restricts grades to values between 0-100 and prevents system crashes from incorrect data types.
 
 
-* 
-**Live Context**: Features a real-time date and time display on the interface.
-
-
+* **Live Context**: Features a real-time date and time display on the interface.
 
 ## 🛠️ Technical Setup for VS Code
 
