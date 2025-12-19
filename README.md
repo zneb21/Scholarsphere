@@ -1,48 +1,32 @@
 # ScholarSphere: Student Record Management System
 ScholarSphere is a robust, console-based application developed in C++ to streamline the management of student records. It replaces manual data handling with an automated system that supports comprehensive CRUD operations, role-based access control, and persistent data storage.
 
-## 🚀 Features
+## ✨ Key Features
 
-### 1. User Authentication & Access Control
+### 🔐 Role-Based Authentication
+* **Administrator Access**: Full system control using a secure login (Password: admin123). Admins can register students, modify any record, and oversee the entire database.
 
-The system separates permissions between two types of users:
+* **Student Access**: Restricted access where students can view their personal profiles, check grades, and manage their financial balance using their Student ID.
 
-* **Admin**: Requires a password (`admin123`) to access full management tools, including adding, updating, or deleting any student record.
-* 
-**Student**: Restricted to viewing their own profile or deleting their own account after verifying their Student ID and Name.
+### 📊 Academic & Grade Management
+* **Automatic GPA Calculation**: Enter subject grades (0-100), and the system automatically calculates the average and assigns a letter grade (A-F).
 
+* **Course Tracking**: Supports different courses (BSCS, BSIS, BSIT) with specific section assignments.
 
+### 💳 Financial & Scholarship Module
 
-### 2. Core Management (CRUD)
+* **Wallet System**: Students can deposit funds into a virtual wallet to pay tuition.
 
-* **Create**: Register new students with detailed information (ID, Name, Age, Course, Section, Contact, E-mail, Birthday, and Blood Type).
+* **Tuition Management**: Calculates tuition based on the number of enrolled subjects and tracks outstanding balances.
 
+* **Scholarship Status**: Indicates whether a student is currently a scholar for the semester.
 
-* **Read**: Search for students by name or course, or view a complete list automatically sorted alphabetically.
+### 💾 Data Persistence & Security
 
+* **File I/O System**: All student records are saved to students_data.txt, ensuring information is preserved even after the program is closed.
 
-* **Update**: Modify existing personal details or manage a student's subjects and grades.
+* **Confirmation Prompts**: Includes safety checks before deleting records to prevent accidental data loss.
 
-
-* **Delete**: Permanently remove records with a mandatory confirmation step to prevent accidental data loss.
-
-
-
-### 3. Academic & Financial Utilities
-
-* **Grade Calculation**: Automatically calculates a student's average and assigns letter grades (A-F) based on subject performance.
-* **Financial Tracking**: Tracks tuition fees (based on number of subjects), payments made, and current wallet balances.
-* **Scholarship Status**: Displays whether a student has an active scholarship for the current semester.
-
-### 4. System Robustness
-
-* **Data Persistence**: Automatically saves all changes to `students_data.txt` and reloads them upon startup, ensuring no data is lost between sessions.
-
-
-* **Input Validation**: Restricts grades to values between 0-100 and prevents system crashes from incorrect data types.
-
-
-* **Live Context**: Features a real-time date and time display on the interface.
 
 ## 🛠️ Technical Setup for VS Code
 
