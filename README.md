@@ -1,7 +1,7 @@
 # ScholarSphere: Student Record Management System
 ScholarSphere is a robust, console-based application developed in C++ to streamline the management of student records. It replaces manual data handling with an automated system that supports comprehensive CRUD operations, role-based access control, and persistent data storage.
 
-![Title Page](Scholarsphere\Final Project - Comp Prog\images\titlepage.jpg)
+![Title Page](.\images\titlepage.jpg)
 
 ## ✨ Key Features
 
